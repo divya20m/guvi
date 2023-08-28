@@ -1,0 +1,32 @@
+const Header = () => {
+    const styles={
+        color:"White",
+        display:"flex"
+    }
+  return (
+    <AppBar position="static">
+      <div className="container">
+        <Toolbar>
+          <Typography variant="h6">Guvi Blog</Typography>
+         <Nav style={styles}> 
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/">Categories</a>
+                </li>
+                <li>
+                    <a href="/">About Us</a>
+                </li>
+                <li>
+                    <a href="/">Contact Us</a>
+                </li>
+            </ul>
+         </Nav>
+        </Toolbar>
+      </div>
+    </AppBar>
+  );
+};
+export default Header;
