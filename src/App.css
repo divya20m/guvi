@@ -3,13 +3,46 @@
 }
 
 .all-cards{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
+  text-wrap: balance;
+  display: -webkit-inline-box;
+   margin: 50px;
+   margin-left: 110px;
 }
-.fullstack-card{
-  padding: 20px;
-  display: inline-flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+
+.NavigateButtons{
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+}
+
+.all-img{
+  width: -webkit-fill-available;
+ height:300px;
+ margin:10px;
+
+}
+
+.top{
+  display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.buttons{
+  display: flex;
+    justify-content: space-around;
+  width: 50px;
+  margin-right: 80px
+}
+
+.top-side{
+  display: flex;
+  justify-content: space-evenly;
+ 
+  
+}
+.all-buttons{
+  display: flex;
+  justify-content: space-evenly;
 }

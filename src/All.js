@@ -6,137 +6,75 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Grid } from '@mui/material'
+import { NavigateButtons } from './App';
+
+
+ export const cardData = [
+  {
+    id: 1,
+    title: 'Best Ways to Learn Automation Testing',
+    image: 'https://www.guvi.in/blog/wp-content/uploads/2023/08/Feature-image-Bets-ways-to-learn-Automation-Testing.webp',
+    description: 'In today’s tech world, making sure software works perfectly is super important. That’s where automation',
+  },
+  {
+    id: 2,
+    title: 'Best Ways to Learn Automation Testing',
+    image: "https://www.guvi.in/blog/wp-content/uploads/2023/08/Feature-image-Bets-ways-to-learn-Automation-Testing.webp",
+    description: 'In today’s tech world, making sure software works perfectly is super important. That’s where automation',
+  },
+  {
+    id: 3,
+    title: 'Best Ways to Learn Automation Testing',
+    image: 'https://www.guvi.in/blog/wp-content/uploads/2023/08/Feature-image-Bets-ways-to-learn-Automation-Testing.webp',
+    description: 'In today’s tech world, making sure software works perfectly is super important. That’s where automation',
+  },
+  {
+    id: 4,
+    title: 'Best Ways to Learn Automation Testing',
+    image: 'https://www.guvi.in/blog/wp-content/uploads/2023/08/Feature-image-Bets-ways-to-learn-Automation-Testing.webp',
+    description: 'In today’s tech world, making sure software works perfectly is super important. That’s where automation',
+  },
+  {
+    id: 5,
+    title: 'Best Ways to Learn Automation Testing',
+    image: 'https://www.guvi.in/blog/wp-content/uploads/2023/08/Feature-image-Bets-ways-to-learn-Automation-Testing.webp',
+    description: 'In today’s tech world, making sure software works perfectly is super important. That’s where automation',
+  },
+  {
+    id: 6,
+    title: 'Best Ways to Learn Automation Testing',
+    image: 'https://www.guvi.in/blog/wp-content/uploads/2023/08/Feature-image-Bets-ways-to-learn-Automation-Testing.webp',
+    description: 'In today’s tech world, making sure software works perfectly is super important. That’s where automation',
+  }
+];
+
 export function All() {
   return (
     <div>
-
+      <div><img src='https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header-2048x315.png' className='all-img'/></div>
+      <NavigateButtons />
       <div className='all-cards'>
         <Grid container spacing={2}>
-
-          <Grid item xs={12} md={4}>
-            <Card sx={{ maxWidth: 345 }}>
-              <CardMedia
-                sx={{ height: 140 }}
-                image="https://www.guvi.in/blog/wp-content/uploads/2023/08/Feature-image-Bets-ways-to-learn-Automation-Testing.webp"
-                title="Best Ways to Learn Automation Testing" />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Best Ways to Learn Automation Testing
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  In today’s tech world, making sure software works perfectly is super important. That’s where automation
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button size="small">Read more</Button>
-              </CardActions>
-            </Card>
-          </Grid>
-
-          <Grid item xs={12} md={4}>
-            <Card sx={{ maxWidth: 345 }}>
-              <CardMedia
-                sx={{ height: 140 }}
-                image="https://www.guvi.in/blog/wp-content/uploads/2023/08/Feature-image-Bets-ways-to-learn-Automation-Testing.webp"
-                title="Best Ways to Learn Automation Testing" />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Best Ways to Learn Automation Testing
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  In today’s tech world, making sure software works perfectly is super important. That’s where automation
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button size="small">Read more</Button>
-              </CardActions>
-            </Card>
-          </Grid>
-
-          <Grid item xs={12} md={4}>
-            <Card sx={{ maxWidth: 345 }}>
-              <CardMedia
-                sx={{ height: 140 }}
-                image="https://www.guvi.in/blog/wp-content/uploads/2023/08/Feature-image-How-Long-Would-It-Take-To-Learn-Web-Development.webp"
-                title="How Long Would It Take to Learn Web Development?" />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  How Long Would It Take to Learn Web Development?
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Ever noticed how websites make our lives easier? From buying clothes online to watching funny
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button size="small">Read more</Button>
-              </CardActions>
-            </Card>
-          </Grid>
-
-          <Grid item xs={12} md={4}>
-            <Card sx={{ maxWidth: 345 }}>
-              <CardMedia
-                sx={{ height: 140 }}
-                image="https://www.guvi.in/blog/wp-content/uploads/2023/08/feature-image-Selenium-Interview-Questions-and-Answers.webp"
-                title="Top Selenium Interview Questions and Answers for 2023" />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Top Selenium Interview Questions and Answers for 2023
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Testing is a very important phase in the software development lifecycle (SDLC) and thus, Selenium,
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button size="small">Read more</Button>
-              </CardActions>
-            </Card>
-          </Grid>
-          
-          
-          <Grid item xs={12} md={4}>
-            <Card sx={{ maxWidth: 345 }}>
-              <CardMedia
-                sx={{ height: 140 }}
-                image="https://www.guvi.in/blog/wp-content/uploads/2023/08/feature-image-Selenium-Interview-Questions-and-Answers.webp"
-                title="Top Selenium Interview Questions and Answers for 2023" />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Top Selenium Interview Questions and Answers for 2023
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Testing is a very important phase in the software development lifecycle (SDLC) and thus, Selenium,
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button size="small">Read more</Button>
-              </CardActions>
-            </Card>
-          </Grid>
-          
-          <Grid item xs={12} md={4}>
-            <Card sx={{ maxWidth: 345 }}>
-              <CardMedia
-                sx={{ height: 140 }}
-                image="https://www.guvi.in/blog/wp-content/uploads/2023/08/feature-image-Selenium-Interview-Questions-and-Answers.webp"
-                title="Top Selenium Interview Questions and Answers for 2023" />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Top Selenium Interview Questions and Answers for 2023
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Testing is a very important phase in the software development lifecycle (SDLC) and thus, Selenium,
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button size="small">Read more</Button>
-              </CardActions>
-            </Card>
-          
-          </Grid>
+          {cardData.map((card) => (
+            <Grid key={card.id} item xs={12} md={4}>
+              <Card sx={{ maxWidth: 345 }}>
+                <CardMedia sx={{ height: 140 }} image={card.image} title={card.title} />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    {card.title}
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    {card.description}
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button size="small">Read more</Button>
+                </CardActions>
+              </Card>
+            </Grid>
+          ))}
         </Grid>
       </div>
     </div>
-  )
+  );
 }
-
